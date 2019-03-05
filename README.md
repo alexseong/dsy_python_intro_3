@@ -165,6 +165,8 @@ more Pythonic way
     fout.write(line1)
     fout.close()
 
+    
+
 ## [Exercises](./exercises_file.md)
 
 ## [Glossary](./glossary_file.md)
