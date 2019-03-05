@@ -135,18 +135,35 @@ The first operand is the format string, which contains one or more format sequen
 # FILES
 
 ## Opening files
+If the open is successful, the operating system returns us a file handle.
 
 ## Text files and lines
+    data/mbox.txt
+    data/mbox_short.txt
 
 ## Reading files
+    fhand = open('filename')
+    for line in fhand:
+        # do something
+    
+    str = fhand.read()
 
-## Searching throigh a file
+## Searching through a file
+    str_obj.rstrip()
+    str_obj.startwith('')
 
 ## Letting the user choose the file name
+    fname = input('Enter the file name: ')
+    fhandle = open(fname)
 
 ## Using try, except, and open
+more Pythonic way
 
 ## Writing files
+    fout = open('output.txt', 'w')
+    line1 = "This is the first line.\n"
+    fout.write(line1)
+    fout.close()
 
 ## [Exercises](./exercises_file.md)
 
