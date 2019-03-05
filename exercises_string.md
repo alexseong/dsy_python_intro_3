@@ -25,9 +25,9 @@ Use find and string slicing to extract the portion of the string after the colon
 
 <b>Exercise 6: Read the documentation of the string methods at [https://docs.python.org/library/stdtypes.html#string-methods](https://docs.python.org/library/stdtypes.html#string-methods) You might want to experiment with some of them to make sure you understand how they work. strip and replace are particularly useful.
 
-The documentation uses a syntax that might be confusing. For example, in find(sub[, start[, end]]), the brackets indicate optional arguments. So sub is required, but start is optional, and if you include start, then end is optional.
+The documentation uses a syntax that might be confusing. For example, in find(sub[, start[, end]]), the brackets indicate optional arguments. So sub is required, but start is optional, and if you include start, then end is optional.</b>
 
-<b>Exercise 6: In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.</b><br>
+<b>Exercise 7: In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.</b><br>
 
 <b>NOTE:</b> String letters are case-sensitive.<br>
 
