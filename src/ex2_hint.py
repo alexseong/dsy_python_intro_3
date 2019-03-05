@@ -8,7 +8,7 @@ while True:
     try:
         inum = int(num)
 
-        # Put your
+        # Put your code here
 
     except:
         print("Invalid input")

@@ -1,14 +1,23 @@
 largest = None
 smallest = None
+
 while True:
     num = input("Enter a number: ")
     if num == "done" : break
 
     try:
         ## write your code here
+        inum = int(num)
+
+        if largest is None or inum > largest:
+            largest = inum
+
+        if smallest is None or inum < smallest:
+            smallest = inum
 
     except:
-        ## write your code here
+        print("Invalid input")
+        continue## write your code here
 
-print("Maximum", largest)
-## write another print statement here
+print("Maximum is", largest)
+print("Minimum is", smallest)

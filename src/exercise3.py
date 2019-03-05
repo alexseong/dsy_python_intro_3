@@ -16,9 +16,9 @@ while True:
 
 for number in numbers:
     #write your code here
-    count =
-    total =
+    count += 1 ## count = count + 1
+    total += number ## total = total + number
 
-average =
+average = total / count
 
 print(total, count, average)
